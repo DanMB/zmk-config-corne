@@ -1,3 +1,5 @@
+### Cloned from [t18n/zmk-config-corne](https://github.com/t18n/zmk-config-corne)
+
 # Corne ZMK config
 
 ## Resources
