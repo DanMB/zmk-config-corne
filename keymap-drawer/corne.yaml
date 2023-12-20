@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
-  - ''
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - ''
-  - ''
+  - BACKSPACE
+  - TAB
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LCTRL}
   - {t: D, h: LEFT ALT}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RCTRL}
   - RIGHT SHIFT
   - ''
-  - ''
+  - LEFT ALT
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - RCTRL
   - LEFT ALT
   - nav
   - SPACE
@@ -181,3 +181,5 @@ combos:
   k: ENTER
 - p: [5, 6]
   k: CLCK
+- p: [39, 6, 11]
+  k: '&sys_reset'
