@@ -1,9 +1,9 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  base: [TAB, Q, W, E, R, T, Y, U, I, O, P, '', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '', LCTRL, Z, X, C, V, B, N, M, ',', ., /, '', LEFT ALT, nav, SPACE, LEFT
-      GUI, symbols, ENTER]
+  base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '', LCTRL, Z, X, C, V, B, N, M, ',', ., /, '', LEFT ALT, nav, SPACE,
+    LEFT GUI, symbols, ENTER]
   symbols:
-  - {t: ▽, type: trans}
+  - ESC
   - '1'
   - '2'
   - '3'
@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - ESC
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
